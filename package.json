@@ -1,0 +1,23 @@
+{
+  "name": "imgopt",
+  "version": "1.0.0",
+  "description": "Creando una app para optimizar imágenes para la web",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "Node app.js"
+  },
+  "keywords": [],
+  "author": "Matias Maidana",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.33.0"
+  }
+}
